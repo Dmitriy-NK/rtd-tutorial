@@ -12,11 +12,7 @@ https://docs.readthedocs.io/en/stable/tutorial/
 version: 2
 python:
   install:
-    - requirements: 
-      - docs
-      - m2r2
-      - sphinx-autodoc-typehints
-      - autodocsumm
+    - requirements: docs/requirements.txt
     - method: pip
       path: .
 sphinx:
